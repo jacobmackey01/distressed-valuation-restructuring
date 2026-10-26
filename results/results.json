@@ -1,0 +1,484 @@
+{
+  "Base": {
+    "forecast": [
+      {
+        "year": 2026,
+        "revenue": 103.0,
+        "ebitda": 13.39,
+        "da": 4.12,
+        "ebit": 9.27,
+        "unlevered_tax": 2.3175,
+        "nopat": 6.9525,
+        "capex": 5.15,
+        "nwc": 15.45,
+        "change_nwc": 0.4499999999999993,
+        "fcff": 5.4725
+      },
+      {
+        "year": 2027,
+        "revenue": 107.12,
+        "ebitda": 14.996800000000002,
+        "da": 4.284800000000001,
+        "ebit": 10.712000000000002,
+        "unlevered_tax": 2.6780000000000004,
+        "nopat": 8.034,
+        "capex": 5.356000000000001,
+        "nwc": 16.068,
+        "change_nwc": 0.6180000000000021,
+        "fcff": 6.344799999999998
+      },
+      {
+        "year": 2028,
+        "revenue": 111.40480000000001,
+        "ebitda": 16.710720000000002,
+        "da": 4.456192000000001,
+        "ebit": 12.254528,
+        "unlevered_tax": 3.063632,
+        "nopat": 9.190896,
+        "capex": 5.570240000000001,
+        "nwc": 16.710720000000002,
+        "change_nwc": 0.6427200000000006,
+        "fcff": 7.434127999999998
+      },
+      {
+        "year": 2029,
+        "revenue": 114.74694400000001,
+        "ebitda": 18.35951104,
+        "da": 4.58987776,
+        "ebit": 13.76963328,
+        "unlevered_tax": 3.44240832,
+        "nopat": 10.32722496,
+        "capex": 5.737347200000001,
+        "nwc": 17.212041600000003,
+        "change_nwc": 0.5013216000000007,
+        "fcff": 8.67843392
+      },
+      {
+        "year": 2030,
+        "revenue": 117.61561760000001,
+        "ebitda": 18.818498816,
+        "da": 4.704624704,
+        "ebit": 14.113874112000001,
+        "unlevered_tax": 3.5284685280000003,
+        "nopat": 10.585405584,
+        "capex": 5.8807808800000005,
+        "nwc": 17.64234264,
+        "change_nwc": 0.43030103999999625,
+        "fcff": 8.978948368000005
+      }
+    ],
+    "dcf": {
+      "enterprise_value": 76.90062894700303,
+      "pv_explicit_fcff": 25.845859987203635,
+      "pv_terminal": 51.05476895979939,
+      "terminal_nopat": 10.79711369568,
+      "terminal_fcff": 8.997594746399999,
+      "terminal_value": 89.975947464,
+      "terminal_value_share": 0.6639057398995317,
+      "residual_after_face_debt": 0.9006289470030282
+    },
+    "legacy_cash_budget": [
+      {
+        "year": 2026,
+        "opening_cash": 4.0,
+        "interest": 8.25,
+        "cash_tax": 0.2549999999999999,
+        "principal_due": 0,
+        "unfunded_ending_cash": 3.285000000000002,
+        "cumulative_funding_gap": 0
+      },
+      {
+        "year": 2027,
+        "opening_cash": 3.285000000000002,
+        "interest": 8.25,
+        "cash_tax": 0.6155000000000004,
+        "principal_due": 0,
+        "unfunded_ending_cash": 3.4423000000000004,
+        "cumulative_funding_gap": 0
+      },
+      {
+        "year": 2028,
+        "opening_cash": 3.4423000000000004,
+        "interest": 8.25,
+        "cash_tax": 1.0011320000000001,
+        "principal_due": 35.0,
+        "unfunded_ending_cash": -30.311072,
+        "cumulative_funding_gap": 33.311071999999996
+      },
+      {
+        "year": 2029,
+        "opening_cash": -30.311072,
+        "interest": 4.05,
+        "cash_tax": 2.42990832,
+        "principal_due": 0,
+        "unfunded_ending_cash": -24.67013808,
+        "cumulative_funding_gap": 27.67013808
+      },
+      {
+        "year": 2030,
+        "opening_cash": -24.67013808,
+        "interest": 4.05,
+        "cash_tax": 2.515968528,
+        "principal_due": 45.0,
+        "unfunded_ending_cash": -63.728689712,
+        "cumulative_funding_gap": 66.728689712
+      }
+    ],
+    "restructuring": {
+      "distributable_value": 74.90062894700303,
+      "claim_recoveries": [
+        45.0,
+        29.900628947003028
+      ],
+      "recovery_rates": [
+        1.0,
+        0.8543036842000865
+      ],
+      "legacy_equity_residual": 0.0,
+      "assumed_new_debt": 40.17,
+      "new_equity_reference_value": 34.73062894700303,
+      "equity_allocations": [
+        4.829999999999998,
+        29.900628947003028,
+        0.0
+      ],
+      "equity_ownership": [
+        0.1390703291717033,
+        0.8609296708282967,
+        0.0
+      ],
+      "new_ebitda_interest_cover": 4.166666666666667
+    },
+    "lbo": {
+      "entry_ev": 96.0,
+      "initial_debt": 64.0,
+      "initial_equity": 37.56,
+      "transaction_fee": 1.92,
+      "debt_fee": 0.64,
+      "total_uses": 101.56,
+      "total_sources": 101.56,
+      "exit_ev": 112.91099289600001,
+      "exit_equity": 66.9318226105,
+      "total_invested_equity": 38.167500000000004,
+      "total_equity_cures": 0.6075000000000017,
+      "moic": 1.7536339191851706,
+      "irr": 0.11927095518744613,
+      "sponsor_cashflows": [
+        -37.56,
+        -0.607499999999999,
+        0,
+        0,
+        0,
+        66.9318226105
+      ],
+      "schedule": [
+        {
+          "year": 2026,
+          "opening_debt": 64.0,
+          "interest": 6.4,
+          "cash_tax": 0.7174999999999998,
+          "operating_cash": 0.6725000000000012,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 0.607499999999999,
+          "ending_debt": 62.72,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2027,
+          "opening_debt": 62.72,
+          "interest": 6.272,
+          "cash_tax": 1.1100000000000003,
+          "operating_cash": 1.6407999999999987,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0.36079999999999846,
+          "equity_cure": 0,
+          "ending_debt": 61.0792,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2028,
+          "opening_debt": 61.0792,
+          "interest": 6.10792,
+          "cash_tax": 1.5366520000000001,
+          "operating_cash": 2.8531880000000003,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 1.573188,
+          "equity_cure": 0,
+          "ending_debt": 58.226012,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2029,
+          "opening_debt": 58.226012,
+          "interest": 5.8226012,
+          "cash_tax": 1.9867580200000001,
+          "operating_cash": 4.311483019999998,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 3.031483019999998,
+          "equity_cure": 0,
+          "ending_debt": 53.91452898,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2030,
+          "opening_debt": 53.91452898,
+          "interest": 5.391452898000001,
+          "cash_tax": 2.1806053035,
+          "operating_cash": 4.935358694500004,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 3.655358694500004,
+          "equity_cure": 0,
+          "ending_debt": 48.9791702855,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        }
+      ]
+    }
+  },
+  "Downside": {
+    "forecast": [
+      {
+        "year": 2026,
+        "revenue": 90.0,
+        "ebitda": 7.2,
+        "da": 3.6,
+        "ebit": 3.6,
+        "unlevered_tax": 0.9,
+        "nopat": 2.7,
+        "capex": 4.5,
+        "nwc": 13.5,
+        "change_nwc": -1.5,
+        "fcff": 3.3000000000000007
+      },
+      {
+        "year": 2027,
+        "revenue": 85.5,
+        "ebitda": 6.84,
+        "da": 3.42,
+        "ebit": 3.42,
+        "unlevered_tax": 0.855,
+        "nopat": 2.565,
+        "capex": 4.275,
+        "nwc": 12.825,
+        "change_nwc": -0.6750000000000007,
+        "fcff": 2.385
+      },
+      {
+        "year": 2028,
+        "revenue": 85.5,
+        "ebitda": 8.55,
+        "da": 3.42,
+        "ebit": 5.130000000000001,
+        "unlevered_tax": 1.2825000000000002,
+        "nopat": 3.8475000000000006,
+        "capex": 4.275,
+        "nwc": 12.825,
+        "change_nwc": 0.0,
+        "fcff": 2.9924999999999997
+      },
+      {
+        "year": 2029,
+        "revenue": 87.21000000000001,
+        "ebitda": 10.465200000000001,
+        "da": 3.4884000000000004,
+        "ebit": 6.976800000000001,
+        "unlevered_tax": 1.7442000000000002,
+        "nopat": 5.232600000000001,
+        "capex": 4.360500000000001,
+        "nwc": 13.0815,
+        "change_nwc": 0.25650000000000084,
+        "fcff": 4.103999999999998
+      },
+      {
+        "year": 2030,
+        "revenue": 89.39025,
+        "ebitda": 11.620732499999999,
+        "da": 3.5756099999999997,
+        "ebit": 8.0451225,
+        "unlevered_tax": 2.011280625,
+        "nopat": 6.033841875,
+        "capex": 4.4695124999999996,
+        "nwc": 13.4085375,
+        "change_nwc": 0.3270374999999994,
+        "fcff": 4.8129018750000006
+      }
+    ],
+    "dcf": {
+      "enterprise_value": 41.41886767834917,
+      "pv_explicit_fcff": 12.316874332556212,
+      "pv_terminal": 29.101993345792962,
+      "terminal_nopat": 6.1545187125,
+      "terminal_fcff": 5.128765593749999,
+      "terminal_value": 51.28765593749999,
+      "terminal_value_share": 0.7026264834614349,
+      "residual_after_face_debt": -34.58113232165083
+    },
+    "legacy_cash_budget": [
+      {
+        "year": 2026,
+        "opening_cash": 4.0,
+        "interest": 8.25,
+        "cash_tax": 0.0,
+        "principal_due": 0,
+        "unfunded_ending_cash": -0.05000000000000071,
+        "cumulative_funding_gap": 3.0500000000000007
+      },
+      {
+        "year": 2027,
+        "opening_cash": -0.05000000000000071,
+        "interest": 8.25,
+        "cash_tax": 0.0,
+        "principal_due": 0,
+        "unfunded_ending_cash": -5.0600000000000005,
+        "cumulative_funding_gap": 8.06
+      },
+      {
+        "year": 2028,
+        "opening_cash": -5.0600000000000005,
+        "interest": 8.25,
+        "cash_tax": 0.0,
+        "principal_due": 35.0,
+        "unfunded_ending_cash": -44.035,
+        "cumulative_funding_gap": 47.035
+      },
+      {
+        "year": 2029,
+        "opening_cash": -44.035,
+        "interest": 4.05,
+        "cash_tax": 0.7317000000000002,
+        "principal_due": 0,
+        "unfunded_ending_cash": -42.9685,
+        "cumulative_funding_gap": 45.9685
+      },
+      {
+        "year": 2030,
+        "opening_cash": -42.9685,
+        "interest": 4.05,
+        "cash_tax": 0.998780625,
+        "principal_due": 45.0,
+        "unfunded_ending_cash": -86.193098125,
+        "cumulative_funding_gap": 89.193098125
+      }
+    ],
+    "restructuring": {
+      "distributable_value": 39.41886767834917,
+      "claim_recoveries": [
+        39.41886767834917,
+        0.0
+      ],
+      "recovery_rates": [
+        0.8759748372966483,
+        0.0
+      ],
+      "legacy_equity_residual": 0.0,
+      "assumed_new_debt": 21.6,
+      "new_equity_reference_value": 17.81886767834917,
+      "equity_allocations": [
+        17.81886767834917,
+        0.0,
+        0.0
+      ],
+      "equity_ownership": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "new_ebitda_interest_cover": 4.166666666666666
+    },
+    "lbo": {
+      "entry_ev": 96.0,
+      "initial_debt": 64.0,
+      "initial_equity": 37.56,
+      "transaction_fee": 1.92,
+      "debt_fee": 0.64,
+      "total_uses": 101.56,
+      "total_sources": 101.56,
+      "exit_ev": 69.72439499999999,
+      "exit_equity": 15.124394999999993,
+      "total_invested_equity": 51.072098125000004,
+      "total_equity_cures": 13.512098125000001,
+      "moic": 0.29613811758786035,
+      "irr": -0.25812022287898906,
+      "sponsor_cashflows": [
+        -37.56,
+        -3.4800000000000004,
+        -4.312,
+        -3.149,
+        -1.6880000000000004,
+        14.241296874999993
+      ],
+      "schedule": [
+        {
+          "year": 2026,
+          "opening_debt": 64.0,
+          "interest": 6.4,
+          "cash_tax": 0.0,
+          "operating_cash": -2.2,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 3.4800000000000004,
+          "ending_debt": 62.72,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2027,
+          "opening_debt": 62.72,
+          "interest": 6.272,
+          "cash_tax": 0.0,
+          "operating_cash": -3.032,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 4.312,
+          "ending_debt": 61.44,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2028,
+          "opening_debt": 61.44,
+          "interest": 6.144,
+          "cash_tax": 0.0,
+          "operating_cash": -1.8689999999999998,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 3.149,
+          "ending_debt": 60.16,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2029,
+          "opening_debt": 60.16,
+          "interest": 6.016,
+          "cash_tax": 0.2402000000000002,
+          "operating_cash": -0.40800000000000036,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 1.6880000000000004,
+          "ending_debt": 58.879999999999995,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        },
+        {
+          "year": 2030,
+          "opening_debt": 58.879999999999995,
+          "interest": 5.888,
+          "cash_tax": 0.539280625,
+          "operating_cash": 0.3969018750000002,
+          "mandatory_amortisation": 1.28,
+          "cash_sweep": 0,
+          "equity_cure": 0.8830981250000001,
+          "ending_debt": 57.599999999999994,
+          "opening_cash": 3.0,
+          "ending_cash": 3.0
+        }
+      ]
+    }
+  }
+}

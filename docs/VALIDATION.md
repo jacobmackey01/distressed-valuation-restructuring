@@ -1,0 +1,9 @@
+# Verification
+
+The core Python model uses no third-party packages. Twelve tests pass, covering independently calculated Decimal DCF, working-capital release, tax floors, terminal assumptions, discount-rate sensitivity, maturity timing, waterfall bounds/conservation, debt-for-equity allocations, sources and uses, an independently written sponsor cash ledger, sponsor injections, analytical IRR cases and zero-debt behaviour. Full execution output is in `results/test_log.txt`.
+
+The Excel model was recalculated with Artifact Tool and compared with the separate Python implementation for Base and Downside. Checks include all five annual FCFF values, debt balances and equity injections; enterprise value, sponsor IRR/MOIC, unsecured recovery and the 2028 funding requirement. All 100 cells across the two native sensitivity tables and two operating cases matched Python within 1e-7. A later forecast margin was changed; dependent valuation moved and restored correctly. The active case was restored to Base before export. The final formula-error scan found no matches. Each worksheet was rendered and visually reviewed.
+
+These checks verify implementation within the invented assumptions. Microsoft Excel itself was not used to execute the workbook, so native Excel recalculation has not been independently confirmed. The file includes formulas, caches and native What-If Data Tables; its intended reader should use automatic calculation including data tables. The machine-readable authoring-engine receipt is `results/workbook_verification.json`.
+
+No actual company statements, debt agreements, market calibration, claims ranking, sponsor funding or financing access were verified. The tests do not establish that an illustrative restructuring can be implemented, that new debt is worth par or that a purchase is attractive. No client or employer reviewed the case. No second independent human audit is claimed.

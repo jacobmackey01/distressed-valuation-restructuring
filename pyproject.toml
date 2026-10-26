@@ -1,0 +1,6 @@
+[project]
+name = "distressed-valuation-restructuring"
+version = "0.1.0"
+description = "Illustrative DCF, LBO and restructuring recovery case"
+requires-python = ">=3.11"
+dependencies = []

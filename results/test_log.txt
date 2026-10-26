@@ -1,0 +1,17 @@
+test_conversion_allocations_conserve_reference_value (test_model.ModelChecks.test_conversion_allocations_conserve_reference_value) ... ok
+test_equity_cures_are_charged_to_sponsor_returns (test_model.ModelChecks.test_equity_cures_are_charged_to_sponsor_returns) ... ok
+test_forecast_and_dcf_against_decimal_cashflows (test_model.ModelChecks.test_forecast_and_dcf_against_decimal_cashflows) ... ok
+test_invalid_terminal_assumptions_rejected (test_model.ModelChecks.test_invalid_terminal_assumptions_rejected) ... ok
+test_irr_analytical_cases_and_no_positive_recovery (test_model.ModelChecks.test_irr_analytical_cases_and_no_positive_recovery) ... ok
+test_lbo_sources_uses_and_independent_cash_ledger (test_model.ModelChecks.test_lbo_sources_uses_and_independent_cash_ledger) ... ok
+test_legacy_maturities_are_separate_from_interest (test_model.ModelChecks.test_legacy_maturities_are_separate_from_interest) ... ok
+test_no_debt_caps_sweeps_and_interest_at_zero (test_model.ModelChecks.test_no_debt_caps_sweeps_and_interest_at_zero) ... ok
+test_priority_waterfall_boundaries_and_conservation (test_model.ModelChecks.test_priority_waterfall_boundaries_and_conservation) ... ok
+test_terminal_reinvestment_and_discounting (test_model.ModelChecks.test_terminal_reinvestment_and_discounting) ... ok
+test_wacc_changes_do_not_change_operating_cashflows (test_model.ModelChecks.test_wacc_changes_do_not_change_operating_cashflows) ... ok
+test_working_capital_release_and_tax_loss_floor (test_model.ModelChecks.test_working_capital_release_and_tax_loss_floor) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

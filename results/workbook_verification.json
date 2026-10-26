@@ -1,0 +1,23 @@
+{
+  "cases": [
+    {
+      "case": "Base",
+      "dcf": 76.90062894700303,
+      "irr": 0.11927095518631867,
+      "moic": 1.7536339191851706,
+      "python_match": true
+    },
+    {
+      "case": "Downside",
+      "dcf": 41.41886767834918,
+      "irr": -0.2581202228940763,
+      "moic": 0.29613811758786035,
+      "python_match": true
+    }
+  ],
+  "active_case_restored": "Base",
+  "later_year_margin_change_recalculated": true,
+  "data_tables": "Native two-variable tables; all 100 sensitivity cells checked against Python across two operating cases",
+  "engine": "Artifact Tool 2.8.58+",
+  "native_excel_execution_verified": false
+}

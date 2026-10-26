@@ -1,0 +1,17 @@
+{
+  "company": "Aster Precision Components (fictional)",
+  "basis": "Illustrative assumptions; GBP million; year-end cash flows; valuation at 31 December 2025",
+  "historical": {"revenue": 100.0, "ebitda": 16.0, "noncash_working_capital": 15.0, "cash": 4.0},
+  "common": {"tax_rate": 0.25, "da_to_revenue": 0.04, "capex_to_revenue": 0.05, "nwc_to_revenue": 0.15, "minimum_cash": 3.0},
+  "dcf": {"wacc": 0.12, "terminal_growth": 0.02, "terminal_roic": 0.12},
+  "legacy_debt": [
+    {"class": "Senior secured", "principal": 45.0, "coupon": 0.09, "maturity_year": 2030},
+    {"class": "Unsecured notes", "principal": 35.0, "coupon": 0.12, "maturity_year": 2028}
+  ],
+  "restructuring": {"implementation_cost": 3.0, "new_debt_ebitda_cap": 3.0, "new_debt_coupon": 0.08},
+  "lbo": {"entry_multiple": 6.0, "exit_multiple": 6.0, "entry_leverage": 4.0, "interest_rate": 0.10, "annual_amortisation": 0.02, "transaction_fee_fraction": 0.02, "debt_fee_fraction": 0.01},
+  "cases": {
+    "Base": {"growth": [0.03, 0.04, 0.04, 0.03, 0.025], "ebitda_margin": [0.13, 0.14, 0.15, 0.16, 0.16]},
+    "Downside": {"growth": [-0.10, -0.05, 0.0, 0.02, 0.025], "ebitda_margin": [0.08, 0.08, 0.10, 0.12, 0.13]}
+  }
+}
